@@ -371,6 +371,12 @@ const App: React.FC = () => {
                   <div className="p-6 text-center bg-slate-900 rounded-2xl text-white mt-2 relative overflow-hidden">
                     <h3 className="text-xl font-black italic tracking-tighter">Perdido</h3>
                     <p className="text-slate-400 text-xs mt-1">v1.0.0 — Todo en tu navegador.</p>
+                    <p className="text-slate-500 text-xs mt-3">
+                      Developed by{' '}
+                      <a href="https://gxnza.vercel.app" target="_blank" rel="noopener noreferrer" className="text-primary font-bold hover:underline">
+                        Gxnza48
+                      </a>
+                    </p>
                     <Car size={80} className="absolute -bottom-6 -right-6 text-white/5 rotate-12" />
                   </div>
                 </div>
